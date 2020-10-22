@@ -8,20 +8,29 @@
 import SwiftUI
 
 struct SearchView: View {
+    
+    @ObservedObject var viewModel = SearchViewModel()
+        
     var body: some View {
-        NavigationView{
-            VStack {
+        
+        NavigationView {
+            
+            ScrollView {
+                
                 SearchBar(searchText: .constant(""))
                     .padding(.horizontal)
-                Spacer()
-                //Text("Search View")
-                List {
-                    
+                    .padding(.bottom, 2)
+                
+                ForEach(viewModel.categories) { category in
+                    NavigationLink(destination: Text("Destination")) {
+                        CategoryRow(category: category)
+                    }
                 }
             }
+            .frame(alignment: .leading)
             .navigationBarTitle("Search")
+
         }
-        
     }
 }
 
@@ -37,6 +46,7 @@ struct SearchBar: View {
     
     var body: some View {
         
+        
         HStack {
             
             Image(systemName: "magnifyingglass")
@@ -46,12 +56,40 @@ struct SearchBar: View {
         
         }
         .padding(.horizontal, 6)
-        .padding(.vertical, 8)
+        .padding(.vertical, 6)
         .foregroundColor(.secondary)
         .background(Color(.secondarySystemBackground))
-        .cornerRadius(10.0)
-        
+        .cornerRadius(8.0)
+        .frame(maxWidth: .infinity)
         
         
     }
+}
+
+struct CategoryRow: View {
+    
+    var category: Category
+    
+    var body: some View {
+        
+        VStack {
+            
+            HStack {
+                
+                Image(systemName: category.imageName)
+                Text(category.id)
+                    .padding(.leading)
+                    .foregroundColor(.black)
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .padding(.trailing)
+                    .foregroundColor(.black)
+                
+            }.padding(.top, 5)
+        
+            Divider()
+        }
+        
+    }
+    
 }

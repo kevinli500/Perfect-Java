@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF2254201760066E082 /* WelcomeView.swift */; };
+		4C8C3DF825420B290066E082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF725420B290066E082 /* Constants.swift */; };
+		4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DFF25420F670066E082 /* HomeViewModel.swift */; };
+		4C8C3E03254213B60066E082 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3E02254213B60066E082 /* LessonView.swift */; };
+		4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3E05254213C40066E082 /* LessonViewModel.swift */; };
 		4C91F316253D6DBC00E29E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F315253D6DBC00E29E48 /* AppDelegate.swift */; };
 		4C91F318253D6DBC00E29E48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F317253D6DBC00E29E48 /* SceneDelegate.swift */; };
 		4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F319253D6DBC00E29E48 /* ContentView.swift */; };
@@ -16,9 +21,17 @@
 		4C91F325253D6DBC00E29E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C91F323253D6DBC00E29E48 /* LaunchScreen.storyboard */; };
 		4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F330253D6E0800E29E48 /* HomeView.swift */; };
 		4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F334253D6E1C00E29E48 /* SearchView.swift */; };
+		4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77C253FBD2400E34BB3 /* Lesson.swift */; };
+		4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77F253FBD2E00E34BB3 /* Category.swift */; };
+		4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC10372540AD2F009110DF /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C8C3DF2254201760066E082 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4C8C3DF725420B290066E082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C8C3DFF25420F670066E082 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4C8C3E02254213B60066E082 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		4C8C3E05254213C40066E082 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
 		4C91F312253D6DBC00E29E48 /* Perfect Java.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfect Java.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C91F315253D6DBC00E29E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C91F317253D6DBC00E29E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +43,9 @@
 		4C91F326253D6DBC00E29E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C91F330253D6E0800E29E48 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C91F334253D6E1C00E29E48 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4CC9A77C253FBD2400E34BB3 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		4CC9A77F253FBD2E00E34BB3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4CDC10372540AD2F009110DF /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8C3DF52542017E0066E082 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4C91F315253D6DBC00E29E48 /* AppDelegate.swift */,
+				4C91F317253D6DBC00E29E48 /* SceneDelegate.swift */,
+				4C91F31E253D6DBC00E29E48 /* Assets.xcassets */,
+				4C91F323253D6DBC00E29E48 /* LaunchScreen.storyboard */,
+				4C91F326253D6DBC00E29E48 /* Info.plist */,
+				4C91F31B253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld */,
+				4C8C3DF725420B290066E082 /* Constants.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		4C91F309253D6DBC00E29E48 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +95,8 @@
 				4C91F32D253D6DD000E29E48 /* Model */,
 				4C91F32E253D6DD500E29E48 /* View */,
 				4C91F32F253D6DDB00E29E48 /* ViewModel */,
-				4C91F315253D6DBC00E29E48 /* AppDelegate.swift */,
-				4C91F317253D6DBC00E29E48 /* SceneDelegate.swift */,
-				4C91F31E253D6DBC00E29E48 /* Assets.xcassets */,
-				4C91F323253D6DBC00E29E48 /* LaunchScreen.storyboard */,
-				4C91F326253D6DBC00E29E48 /* Info.plist */,
-				4C91F31B253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld */,
 				4C91F320253D6DBC00E29E48 /* Preview Content */,
+				4C8C3DF52542017E0066E082 /* Framework */,
 			);
 			path = "Perfect Java";
 			sourceTree = "<group>";
@@ -87,6 +112,8 @@
 		4C91F32D253D6DD000E29E48 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4CC9A77C253FBD2400E34BB3 /* Lesson.swift */,
+				4CC9A77F253FBD2E00E34BB3 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +124,8 @@
 				4C91F319253D6DBC00E29E48 /* ContentView.swift */,
 				4C91F330253D6E0800E29E48 /* HomeView.swift */,
 				4C91F334253D6E1C00E29E48 /* SearchView.swift */,
+				4C8C3DF2254201760066E082 /* WelcomeView.swift */,
+				4C8C3E02254213B60066E082 /* LessonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +133,9 @@
 		4C91F32F253D6DDB00E29E48 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4CDC10372540AD2F009110DF /* SearchViewModel.swift */,
+				4C8C3DFF25420F670066E082 /* HomeViewModel.swift */,
+				4C8C3E05254213C40066E082 /* LessonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,11 +211,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C91F316253D6DBC00E29E48 /* AppDelegate.swift in Sources */,
+				4C8C3DF825420B290066E082 /* Constants.swift in Sources */,
 				4C91F318253D6DBC00E29E48 /* SceneDelegate.swift in Sources */,
 				4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */,
+				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
+				4C8C3E03254213B60066E082 /* LessonView.swift in Sources */,
 				4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */,
 				4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */,
+				4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */,
+				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
+				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
+				4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */,
 				4C91F31D253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld in Sources */,
+				4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Perfect Java/Preview Content\"";
+				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -345,6 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Perfect Java/Preview Content\"";
+				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

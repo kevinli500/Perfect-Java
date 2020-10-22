@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = HomeViewModel()
+    
     var body: some View {
         TabView{
-            HomeView()
+            HomeView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")
@@ -21,7 +24,16 @@ struct ContentView: View {
                     Image(systemName: "magnifyingglass")
                     Text("Search")
                 }
+            
+            HomeView(viewModel: viewModel)
+                .tabItem {
+                    Image(systemName: "gearshape")
+                    Text("More")
+                }
         }
+        .sheet(isPresented: $viewModel.firstUse, content: {
+            WelcomeView()
+        })
     }
 }
 
