@@ -9,6 +9,6 @@ import Foundation
 
 struct Lesson {
     
-    var numPages: Int;
+    
     
 }

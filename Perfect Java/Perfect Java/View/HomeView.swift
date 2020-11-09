@@ -12,7 +12,9 @@ struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
     
     var body: some View {
-        Text("Welcome to Perfect Java!")
+        NavigationView {
+            Text("Welcome to Perfect Java!")
+        }.navigationBarTitle("Perfect Java")
             
     }
 }

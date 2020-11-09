@@ -22,7 +22,7 @@ struct SearchView: View {
                     .padding(.bottom, 2)
                 
                 ForEach(viewModel.categories) { category in
-                    NavigationLink(destination: Text("Destination")) {
+                    NavigationLink(destination: LessonView(lessonChoice: LessonViewModel.LessonChoice.Variables)) {
                         CategoryRow(category: category)
                     }
                 }

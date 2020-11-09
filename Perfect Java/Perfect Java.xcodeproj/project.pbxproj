@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C898DC3254DEB480036AF6E /* InfoButton.swift */; };
 		4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF2254201760066E082 /* WelcomeView.swift */; };
 		4C8C3DF825420B290066E082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF725420B290066E082 /* Constants.swift */; };
 		4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DFF25420F670066E082 /* HomeViewModel.swift */; };
@@ -21,12 +22,16 @@
 		4C91F325253D6DBC00E29E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C91F323253D6DBC00E29E48 /* LaunchScreen.storyboard */; };
 		4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F330253D6E0800E29E48 /* HomeView.swift */; };
 		4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F334253D6E1C00E29E48 /* SearchView.swift */; };
+		4CAE86742554F66300EB1762 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 4CAE86732554F66300EB1762 /* Pages */; };
+		4CAE867E2555329100EB1762 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE867D2555329100EB1762 /* Primitive.swift */; };
 		4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77C253FBD2400E34BB3 /* Lesson.swift */; };
 		4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77F253FBD2E00E34BB3 /* Category.swift */; };
+		4CD288692549354A00E9BB87 /* VariableLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD288682549354A00E9BB87 /* VariableLesson.swift */; };
 		4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC10372540AD2F009110DF /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C898DC3254DEB480036AF6E /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
 		4C8C3DF2254201760066E082 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4C8C3DF725420B290066E082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4C8C3DFF25420F670066E082 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -43,8 +48,10 @@
 		4C91F326253D6DBC00E29E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C91F330253D6E0800E29E48 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C91F334253D6E1C00E29E48 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4CAE867D2555329100EB1762 /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
 		4CC9A77C253FBD2400E34BB3 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		4CC9A77F253FBD2E00E34BB3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4CD288682549354A00E9BB87 /* VariableLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableLesson.swift; sourceTree = "<group>"; };
 		4CDC10372540AD2F009110DF /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,12 +60,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAE86742554F66300EB1762 /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C898DC2254DE76C0036AF6E /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				4C898DC3254DEB480036AF6E /* InfoButton.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		4C8C3DF52542017E0066E082 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +108,7 @@
 		4C91F314253D6DBC00E29E48 /* Perfect Java */ = {
 			isa = PBXGroup;
 			children = (
+				4CAE86762554F67300EB1762 /* Lessons */,
 				4C91F32D253D6DD000E29E48 /* Model */,
 				4C91F32E253D6DD500E29E48 /* View */,
 				4C91F32F253D6DDB00E29E48 /* ViewModel */,
@@ -112,6 +129,7 @@
 		4C91F32D253D6DD000E29E48 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4CD288682549354A00E9BB87 /* VariableLesson.swift */,
 				4CC9A77C253FBD2400E34BB3 /* Lesson.swift */,
 				4CC9A77F253FBD2E00E34BB3 /* Category.swift */,
 			);
@@ -121,6 +139,7 @@
 		4C91F32E253D6DD500E29E48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C898DC2254DE76C0036AF6E /* Extras */,
 				4C91F319253D6DBC00E29E48 /* ContentView.swift */,
 				4C91F330253D6E0800E29E48 /* HomeView.swift */,
 				4C91F334253D6E1C00E29E48 /* SearchView.swift */,
@@ -140,6 +159,54 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		4CAE86762554F67300EB1762 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE8678255515DC00EB1762 /* Variables */,
+				4CAE8679255515E400EB1762 /* Printing */,
+				4CAE867A255515EB00EB1762 /* ControlStatements */,
+				4CAE867B255515F400EB1762 /* Methods */,
+				4CAE867C255515FB00EB1762 /* Arrays */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		4CAE8678255515DC00EB1762 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE867D2555329100EB1762 /* Primitive.swift */,
+			);
+			path = Variables;
+			sourceTree = "<group>";
+		};
+		4CAE8679255515E400EB1762 /* Printing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Printing;
+			sourceTree = "<group>";
+		};
+		4CAE867A255515EB00EB1762 /* ControlStatements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ControlStatements;
+			sourceTree = "<group>";
+		};
+		4CAE867B255515F400EB1762 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		4CAE867C255515FB00EB1762 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +223,9 @@
 			dependencies = (
 			);
 			name = "Perfect Java";
+			packageProductDependencies = (
+				4CAE86732554F66300EB1762 /* Pages */,
+			);
 			productName = "Perfect Java";
 			productReference = 4C91F312253D6DBC00E29E48 /* Perfect Java.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 4C91F309253D6DBC00E29E48;
+			packageReferences = (
+				4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */,
+			);
 			productRefGroup = 4C91F313253D6DBC00E29E48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -210,11 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAE867E2555329100EB1762 /* Primitive.swift in Sources */,
 				4C91F316253D6DBC00E29E48 /* AppDelegate.swift in Sources */,
 				4C8C3DF825420B290066E082 /* Constants.swift in Sources */,
 				4C91F318253D6DBC00E29E48 /* SceneDelegate.swift in Sources */,
+				4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */,
 				4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */,
 				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
+				4CD288692549354A00E9BB87 /* VariableLesson.swift in Sources */,
 				4C8C3E03254213B60066E082 /* LessonView.swift in Sources */,
 				4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */,
 				4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */,
@@ -367,7 +443,7 @@
 				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,7 +465,7 @@
 				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,6 +499,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CAE86732554F66300EB1762 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4C91F31B253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld */ = {
