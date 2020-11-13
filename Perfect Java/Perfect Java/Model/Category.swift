@@ -5,11 +5,14 @@
 //  Created by Michael Ross on 10/20/20.
 //
 
-import Foundation
+import SwiftUI
 
 struct Category: Identifiable {
     
-    var id: String
+    var id = UUID()
+    var name: String
     var imageName: String
+    var lessonChoice: LessonViewModel.LessonChoice
+    var destination = Primitive()
     
 }

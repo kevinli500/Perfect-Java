@@ -13,11 +13,11 @@ class SearchViewModel: ObservableObject {
     
     init() {
         categories = [
-            Category(id: "Variables", imageName: ""),
-            Category(id: "Printing", imageName: ""),
-            Category(id: "Control Statements", imageName: ""),
-            Category(id: "Methods", imageName: ""),
-            Category(id: "Arrays", imageName: "")
+            Category(name: "Variables", imageName: "multiply.square", lessonChoice: .Variables),
+            Category(name: "Printing", imageName: "square.and.pencil", lessonChoice: .Printing),
+            Category(name: "Control Statements", imageName: "eject", lessonChoice: .ControlStatements),
+            Category(name: "Methods", imageName: "wand.and.rays", lessonChoice: .Methods),
+            Category(name: "Arrays", imageName: "doc.on.doc", lessonChoice: .Arrays)
         ]
     }
     

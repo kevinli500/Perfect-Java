@@ -11,14 +11,8 @@ struct InfoButton: View {
     
     var text: String
     var offset: Double
-    @State var showInfo: Bool = false
     
     var body: some View {
-        
-        VStack {
-            Button(action: {
-                showInfo.toggle()
-            }) {
                 ZStack {
                     RoundedRectangle(cornerRadius: 5)
                         .frame(width: 125, height: 50, alignment: .center)
@@ -29,20 +23,6 @@ struct InfoButton: View {
                     Text(text)
                         .foregroundColor(.white)
                 }
-                
-            }.overlay (
-                VStack {
-                    Spacer(minLength: 275)
-                    if(showInfo){
-                        Text("Info Shown")
-                            .frame(width: 300, height: 200)//, alignment: .center)
-                            .background(Color("Dark Sky Blue"))
-                            .cornerRadius(5.0)
-                    }
-                }
-            )
-        }
-        
     }
 }
 

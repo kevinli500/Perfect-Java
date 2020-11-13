@@ -9,18 +9,34 @@ import SwiftUI
 
 struct LessonView: View {
     
+    @ObservedObject var viewModel: LessonViewModel
+    
     var lessonChoice: LessonViewModel.LessonChoice
     
+    init(lessonChoice: LessonViewModel.LessonChoice) {
+        viewModel = LessonViewModel(lessonChoice: lessonChoice)
+        self.lessonChoice = lessonChoice
+        print(lessonChoice)
+        print(viewModel.categories.count)
+    }
+    
     var body: some View {
-        TabView {
-            Text("Hello, World!")
-            Text("Goodbye, World")
-        }.tabViewStyle(PageTabViewStyle())
+        ScrollView {
+
+            ForEach (viewModel.categories) { category in
+                NavigationLink (destination: category.destination) {
+                    CategoryRow(category: category)
+                }
+            }
+            
+        }
+        .padding(.top, 6)
+        .navigationBarTitle(lessonChoice.rawValue, displayMode: .inline)
     }
 }
 
 struct LessonView_Previews: PreviewProvider {
     static var previews: some View {
-        LessonView(lessonChoice: LessonViewModel.LessonChoice.Variables)
+        LessonView(lessonChoice: .Variables)
     }
 }

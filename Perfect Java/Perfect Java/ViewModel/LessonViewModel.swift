@@ -9,24 +9,42 @@ import Foundation
 
 class LessonViewModel: ObservableObject {
     
-    var lessonChoice: LessonChoice = LessonChoice.Variables
+    var lessonChoice: LessonChoice
     
     @Published var categories: [Category] = []
     
-    init() {
-        switch lessonChoice {
-        case LessonChoice.Variables:
+    init(lessonChoice: LessonChoice) {
+        
+        print("Initialized")
+        
+        self.lessonChoice = lessonChoice
+        
+        switch self.lessonChoice {
+        case .Variables:
             categories = [
-                Category(id: "Primitive Data Types", imageName: "")
+                Category(name: "Primitive Data Types", imageName: "doc.circle.fill", lessonChoice: .Variables),
+                Category(name: "Introduction to Strings", imageName: "doc.circle", lessonChoice: .Variables),
+                Category(name: "Declaring and Intializing Variables", imageName: "doc.circle", lessonChoice: .Variables)
             ]
-        default:
+            break
+        case .Printing:
             categories = []
+            break
+        case .ControlStatements:
+            categories = []
+            break
+        case .Methods:
+            categories = []
+            break
+        case .Arrays:
+            categories = []
+            break
         }
             
     }
     
     
-    enum LessonChoice {
+    enum LessonChoice : String {
         case Variables, Printing, ControlStatements, Methods, Arrays
     }
     

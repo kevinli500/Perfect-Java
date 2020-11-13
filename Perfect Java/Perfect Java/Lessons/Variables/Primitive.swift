@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Primitive {
+struct Primitive: View {
     
     var body: some View {
         
@@ -33,6 +33,18 @@ struct Primitive {
     
     
     struct Primitive02: View {
+        
+        
+        @State var infoRow1: Bool = false
+        @State var infoRow2: Bool = false
+        @State var infoRow3: Bool = false
+        @State var infoRow4: Bool = false
+        
+        @State var rowOneText: String = ""
+        @State var rowTwoText: String = ""
+        @State var rowThreeText: String = ""
+        @State var rowFourText: String = ""
+        
         var body: some View {
             
             VStack {
@@ -42,25 +54,101 @@ struct Primitive {
                 
                 
                 HStack {
-                    InfoButton(text: "boolean", offset: 82)
-                    InfoButton(text: "byte", offset: -82)
+                    Spacer()
+                    Button(action: {
+                        infoRow1.toggle()
+                        infoRow2 = false
+                        infoRow3 = false
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "boolean", offset: 82)
+                    }
+                    Spacer()
+                    Button(action: {
+                        infoRow1.toggle()
+                        infoRow2 = false
+                        infoRow3 = false
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "byte", offset: 82)
+                    }
+                    Spacer()
                 }.padding(.vertical)
-                //Spacer()
+                if(infoRow1) {
+                    Text(rowOneText)
+                }
                 HStack {
-                    InfoButton(text: "char", offset: 82)
-                    InfoButton(text: "short", offset: -82)
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2.toggle()
+                        infoRow3 = false
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "char", offset: 82)
+                    }
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2.toggle()
+                        infoRow3 = false
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "short", offset: 82)
+                    }
+                    Spacer()
                 }.padding(.vertical)
-                
-                //Spacer()
+                if(infoRow2) {
+                    Text(rowTwoText)
+                }
                 HStack {
-                    InfoButton(text: "int", offset: 82)
-                    InfoButton(text: "long", offset: -82)
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2 = false
+                        infoRow3.toggle()
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "int", offset: 82)
+                    }
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2 = false
+                        infoRow3.toggle()
+                        infoRow4 = false
+                    }) {
+                        InfoButton(text: "long", offset: 82)
+                    }
+                    Spacer()
                 }.padding(.vertical)
-                //Spacer()
+                if(infoRow3) {
+                    Text(rowThreeText)
+                }
                 HStack {
-                    InfoButton(text: "float", offset: 82)
-                    InfoButton(text: "double", offset: -82)
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2 = false
+                        infoRow3 = false
+                        infoRow4.toggle()
+                    }) {
+                        InfoButton(text: "float", offset: 82)
+                    }
+                    Spacer()
+                    Button(action: {
+                        infoRow1 = false
+                        infoRow2 = false
+                        infoRow3 = false
+                        infoRow4.toggle()
+                    }) {
+                        InfoButton(text: "double", offset: 82)
+                    }
+                    Spacer()
                 }.padding(.vertical)
+                if(infoRow4) {
+                    Text(rowFourText)
+                }
                 Spacer()
             }
             
@@ -78,5 +166,11 @@ struct Primitive_Previews: PreviewProvider {
         //}
         //.tabViewStyle(PageTabViewStyle())
         //.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+    }
+}
+
+struct BooleanView: View {
+    var body: some View {
+        EmptyView()
     }
 }

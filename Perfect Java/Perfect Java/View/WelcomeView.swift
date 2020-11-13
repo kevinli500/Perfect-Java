@@ -18,6 +18,7 @@ struct WelcomeView: View {
                     .bold()
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("Kelly Green"))
+                    .padding(.top, 25)
                 
                 Text("This is a free resource for you to learn Java, one of the most popular programming languages in use today. Computer scientists are in great demand today, and we wanted to provide a gateway to allow everyone to experience what it is like to code, without any ads or paywalls! This is purely a passion project and thus, we seek no profit. Learn as much as you can!\n\nThere are a variety of use cases for this app:")
                     .multilineTextAlignment(.leading)

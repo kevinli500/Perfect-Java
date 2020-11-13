@@ -22,14 +22,13 @@ struct SearchView: View {
                     .padding(.bottom, 2)
                 
                 ForEach(viewModel.categories) { category in
-                    NavigationLink(destination: LessonView(lessonChoice: LessonViewModel.LessonChoice.Variables)) {
+                    NavigationLink(destination: LessonView(lessonChoice: category.lessonChoice)) {
                         CategoryRow(category: category)
                     }
                 }
             }
             .frame(alignment: .leading)
             .navigationBarTitle("Search")
-
         }
     }
 }
@@ -77,7 +76,11 @@ struct CategoryRow: View {
             HStack {
                 
                 Image(systemName: category.imageName)
-                Text(category.id)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30)
+                    .padding(.leading)
+                Text(category.name)
                     .padding(.leading)
                     .foregroundColor(.black)
                 Spacer()
