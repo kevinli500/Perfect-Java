@@ -30,7 +30,7 @@ struct ContentView: View {
                     Image(systemName: "gearshape")
                     Text("More")
                 }
-        }
+        }.accentColor(Color("Burgundy"))
         .sheet(isPresented: $viewModel.firstUse, content: {
             WelcomeView()
         })

@@ -75,10 +75,16 @@ struct CategoryRow: View {
             
             HStack {
                 
-                Image(systemName: category.imageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 30)
+                Circle()
+                    .fill(Color("White Smoke"))
+                    .frame(width: 45, height: 40, alignment: .center)
+                    .overlay(
+                    Image(systemName: category.imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 25)
+                        .foregroundColor(Color("Light Salmon"))
+                    )
                     .padding(.leading)
                 Text(category.name)
                     .padding(.leading)
