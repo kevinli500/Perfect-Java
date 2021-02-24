@@ -28,6 +28,18 @@
 		4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77F253FBD2E00E34BB3 /* Category.swift */; };
 		4CD288692549354A00E9BB87 /* VariableLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD288682549354A00E9BB87 /* VariableLesson.swift */; };
 		4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC10372540AD2F009110DF /* SearchViewModel.swift */; };
+		4CF51B3B25D2417800D69709 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B3A25D2417800D69709 /* Strings.swift */; };
+		4CF51B3E25D2418700D69709 /* InitializingVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B3D25D2418700D69709 /* InitializingVariables.swift */; };
+		4CF51B4125D2444700D69709 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B4025D2444700D69709 /* CodeSnippet.swift */; };
+		4CF51B4425D24DB800D69709 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B4325D24DB800D69709 /* Methods.swift */; };
+		4CF51B4725D24DC300D69709 /* PassByValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B4625D24DC300D69709 /* PassByValue.swift */; };
+		4CF51B4A25D24DDA00D69709 /* If.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B4925D24DDA00D69709 /* If.swift */; };
+		4CF51B4E25D24DE900D69709 /* IfElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B4D25D24DE900D69709 /* IfElse.swift */; };
+		4CF51B5125D24DF000D69709 /* While.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B5025D24DF000D69709 /* While.swift */; };
+		4CF51B5425D24DF600D69709 /* DoWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B5325D24DF600D69709 /* DoWhile.swift */; };
+		4CF51B5725D24E0200D69709 /* ForLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B5625D24E0200D69709 /* ForLoops.swift */; };
+		4CF51B5A25D24E0800D69709 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B5925D24E0800D69709 /* Scopes.swift */; };
+		4CF51B5D25D2508900D69709 /* CategoryDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF51B5C25D2508900D69709 /* CategoryDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +65,18 @@
 		4CC9A77F253FBD2E00E34BB3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4CD288682549354A00E9BB87 /* VariableLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableLesson.swift; sourceTree = "<group>"; };
 		4CDC10372540AD2F009110DF /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		4CF51B3A25D2417800D69709 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		4CF51B3D25D2418700D69709 /* InitializingVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializingVariables.swift; sourceTree = "<group>"; };
+		4CF51B4025D2444700D69709 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
+		4CF51B4325D24DB800D69709 /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		4CF51B4625D24DC300D69709 /* PassByValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassByValue.swift; sourceTree = "<group>"; };
+		4CF51B4925D24DDA00D69709 /* If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If.swift; sourceTree = "<group>"; };
+		4CF51B4D25D24DE900D69709 /* IfElse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElse.swift; sourceTree = "<group>"; };
+		4CF51B5025D24DF000D69709 /* While.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = While.swift; sourceTree = "<group>"; };
+		4CF51B5325D24DF600D69709 /* DoWhile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoWhile.swift; sourceTree = "<group>"; };
+		4CF51B5625D24E0200D69709 /* ForLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoops.swift; sourceTree = "<group>"; };
+		4CF51B5925D24E0800D69709 /* Scopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scopes.swift; sourceTree = "<group>"; };
+		4CF51B5C25D2508900D69709 /* CategoryDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				4C898DC3254DEB480036AF6E /* InfoButton.swift */,
+				4CF51B4025D2444700D69709 /* CodeSnippet.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -132,6 +157,7 @@
 				4CD288682549354A00E9BB87 /* VariableLesson.swift */,
 				4CC9A77C253FBD2400E34BB3 /* Lesson.swift */,
 				4CC9A77F253FBD2E00E34BB3 /* Category.swift */,
+				4CF51B5C25D2508900D69709 /* CategoryDestination.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				4CAE867D2555329100EB1762 /* Primitive.swift */,
+				4CF51B3A25D2417800D69709 /* Strings.swift */,
+				4CF51B3D25D2418700D69709 /* InitializingVariables.swift */,
 			);
 			path = Variables;
 			sourceTree = "<group>";
@@ -189,6 +217,12 @@
 		4CAE867A255515EB00EB1762 /* ControlStatements */ = {
 			isa = PBXGroup;
 			children = (
+				4CF51B4925D24DDA00D69709 /* If.swift */,
+				4CF51B4D25D24DE900D69709 /* IfElse.swift */,
+				4CF51B5025D24DF000D69709 /* While.swift */,
+				4CF51B5325D24DF600D69709 /* DoWhile.swift */,
+				4CF51B5625D24E0200D69709 /* ForLoops.swift */,
+				4CF51B5925D24E0800D69709 /* Scopes.swift */,
 			);
 			path = ControlStatements;
 			sourceTree = "<group>";
@@ -196,6 +230,8 @@
 		4CAE867B255515F400EB1762 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				4CF51B4325D24DB800D69709 /* Methods.swift */,
+				4CF51B4625D24DC300D69709 /* PassByValue.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -284,22 +320,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CAE867E2555329100EB1762 /* Primitive.swift in Sources */,
+				4CF51B4425D24DB800D69709 /* Methods.swift in Sources */,
+				4CF51B5725D24E0200D69709 /* ForLoops.swift in Sources */,
 				4C91F316253D6DBC00E29E48 /* AppDelegate.swift in Sources */,
+				4CF51B4A25D24DDA00D69709 /* If.swift in Sources */,
 				4C8C3DF825420B290066E082 /* Constants.swift in Sources */,
 				4C91F318253D6DBC00E29E48 /* SceneDelegate.swift in Sources */,
 				4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */,
+				4CF51B4E25D24DE900D69709 /* IfElse.swift in Sources */,
 				4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */,
+				4CF51B5D25D2508900D69709 /* CategoryDestination.swift in Sources */,
+				4CF51B4125D2444700D69709 /* CodeSnippet.swift in Sources */,
 				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
+				4CF51B5A25D24E0800D69709 /* Scopes.swift in Sources */,
 				4CD288692549354A00E9BB87 /* VariableLesson.swift in Sources */,
 				4C8C3E03254213B60066E082 /* LessonView.swift in Sources */,
 				4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */,
+				4CF51B5125D24DF000D69709 /* While.swift in Sources */,
+				4CF51B3B25D2417800D69709 /* Strings.swift in Sources */,
 				4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */,
 				4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */,
 				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
 				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
+				4CF51B5425D24DF600D69709 /* DoWhile.swift in Sources */,
 				4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */,
+				4CF51B3E25D2418700D69709 /* InitializingVariables.swift in Sources */,
 				4C91F31D253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld in Sources */,
 				4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */,
+				4CF51B4725D24DC300D69709 /* PassByValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

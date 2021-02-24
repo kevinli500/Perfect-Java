@@ -24,7 +24,7 @@ struct LessonView: View {
         ScrollView {
 
             ForEach (viewModel.categories) { category in
-                NavigationLink (destination: category.destination) {
+                NavigationLink (destination: category) {
                     CategoryRow(category: category)
                 }
             }
