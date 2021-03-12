@@ -24,11 +24,15 @@ class LessonViewModel: ObservableObject {
             categories = [
                 Category(name: "Primitive Data Types", imageName: "doc.circle.fill", lessonChoice: .Variables),
                 Category(name: "Introduction to Strings", imageName: "doc.circle", lessonChoice: .Variables),
-                Category(name: "Declaring and Intializing Variables", imageName: "doc.circle", lessonChoice: .Variables)
+                Category(name: "Declaring and Initializing Variables", imageName: "doc.circle", lessonChoice: .Variables)
             ]
             break
         case .Printing:
-            categories = []
+            categories = [
+                Category(name: "print() and println()", imageName: "doc.circle", lessonChoice: .Printing),
+                Category(name: "Arithmetic Expressions and Concatenation", imageName: "doc.circle", lessonChoice: .Printing),
+                Category(name: "printf()", imageName: "doc.circle", lessonChoice: .Printing)
+            ]
             break
         case .ControlStatements:
             categories = []

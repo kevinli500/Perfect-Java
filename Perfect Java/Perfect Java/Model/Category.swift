@@ -41,7 +41,14 @@ struct Category: View, Identifiable {
         
             case .Printing:
                 
-                return AnyView(EmptyView())
+                if(name == "print() and println()") {
+                    return AnyView(PrintStatements())
+                } else if(name == "Arithmetic Expressions and Concatenation") {
+                    return AnyView(ArithmeticExpressionsAndConcatenation())
+                } else if(name == "printf()") {
+                    return AnyView(Printf())
+                }
+                
         }
         
         return AnyView(EmptyView())

@@ -15,7 +15,7 @@ struct CodeSnippet: View {
         Text(text)
             .background(Color("White Smoke"))
             .font(.system(size: 14 , design: .monospaced))
-            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+            .multilineTextAlignment(.leading)
     }
 }
 

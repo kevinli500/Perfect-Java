@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4E55D025F6A96900E07674 /* PrintStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55CF25F6A96900E07674 /* PrintStatements.swift */; };
+		4C4E55D325F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */; };
+		4C4E55D625F6A98F00E07674 /* Printf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D525F6A98F00E07674 /* Printf.swift */; };
 		4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C898DC3254DEB480036AF6E /* InfoButton.swift */; };
 		4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF2254201760066E082 /* WelcomeView.swift */; };
 		4C8C3DF825420B290066E082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF725420B290066E082 /* Constants.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C4E55CF25F6A96900E07674 /* PrintStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStatements.swift; sourceTree = "<group>"; };
+		4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpressionsAndConcatenation.swift; sourceTree = "<group>"; };
+		4C4E55D525F6A98F00E07674 /* Printf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printf.swift; sourceTree = "<group>"; };
 		4C898DC3254DEB480036AF6E /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
 		4C8C3DF2254201760066E082 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4C8C3DF725420B290066E082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -210,6 +216,9 @@
 		4CAE8679255515E400EB1762 /* Printing */ = {
 			isa = PBXGroup;
 			children = (
+				4C4E55CF25F6A96900E07674 /* PrintStatements.swift */,
+				4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */,
+				4C4E55D525F6A98F00E07674 /* Printf.swift */,
 			);
 			path = Printing;
 			sourceTree = "<group>";
@@ -321,6 +330,7 @@
 			files = (
 				4CAE867E2555329100EB1762 /* Primitive.swift in Sources */,
 				4CF51B4425D24DB800D69709 /* Methods.swift in Sources */,
+				4C4E55D325F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift in Sources */,
 				4CF51B5725D24E0200D69709 /* ForLoops.swift in Sources */,
 				4C91F316253D6DBC00E29E48 /* AppDelegate.swift in Sources */,
 				4CF51B4A25D24DDA00D69709 /* If.swift in Sources */,
@@ -334,6 +344,7 @@
 				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
 				4CF51B5A25D24E0800D69709 /* Scopes.swift in Sources */,
 				4CD288692549354A00E9BB87 /* VariableLesson.swift in Sources */,
+				4C4E55D025F6A96900E07674 /* PrintStatements.swift in Sources */,
 				4C8C3E03254213B60066E082 /* LessonView.swift in Sources */,
 				4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */,
 				4CF51B5125D24DF000D69709 /* While.swift in Sources */,
@@ -343,6 +354,7 @@
 				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
 				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
 				4CF51B5425D24DF600D69709 /* DoWhile.swift in Sources */,
+				4C4E55D625F6A98F00E07674 /* Printf.swift in Sources */,
 				4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */,
 				4CF51B3E25D2418700D69709 /* InitializingVariables.swift in Sources */,
 				4C91F31D253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld in Sources */,
