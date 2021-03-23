@@ -43,10 +43,12 @@ struct Category: View, Identifiable {
                 
                 if(name == "print() and println()") {
                     return AnyView(PrintStatements())
-                } else if(name == "Arithmetic Expressions and Concatenation") {
+                } else if(name == "Arithmetic Expressions") {
                     return AnyView(ArithmeticExpressionsAndConcatenation())
-                } else if(name == "printf()") {
-                    return AnyView(Printf())
+                } else if(name == "Concatenation") {
+                    return AnyView(Concatenation())
+                } else if(name == "The Modulo Operator") {
+                    return AnyView(Modulo())
                 }
                 
         }

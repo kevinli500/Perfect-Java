@@ -30,8 +30,9 @@ class LessonViewModel: ObservableObject {
         case .Printing:
             categories = [
                 Category(name: "print() and println()", imageName: "doc.circle", lessonChoice: .Printing),
-                Category(name: "Arithmetic Expressions and Concatenation", imageName: "doc.circle", lessonChoice: .Printing),
-                Category(name: "printf()", imageName: "doc.circle", lessonChoice: .Printing)
+                Category(name: "Arithmetic Expressions", imageName: "doc.circle", lessonChoice: .Printing),
+                Category(name: "The Modulo Operator", imageName: "doc.circle", lessonChoice: .Printing),
+                Category(name: "Concatenation", imageName: "doc.circle", lessonChoice: .Printing)
             ]
             break
         case .ControlStatements:

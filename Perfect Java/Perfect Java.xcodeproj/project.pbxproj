@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C00DCCE260652DD00808E42 /* Modulo.swift */; };
 		4C4E55D025F6A96900E07674 /* PrintStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55CF25F6A96900E07674 /* PrintStatements.swift */; };
 		4C4E55D325F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */; };
-		4C4E55D625F6A98F00E07674 /* Printf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D525F6A98F00E07674 /* Printf.swift */; };
+		4C4E55D625F6A98F00E07674 /* Concatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D525F6A98F00E07674 /* Concatenation.swift */; };
 		4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C898DC3254DEB480036AF6E /* InfoButton.swift */; };
 		4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF2254201760066E082 /* WelcomeView.swift */; };
 		4C8C3DF825420B290066E082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C3DF725420B290066E082 /* Constants.swift */; };
@@ -46,9 +47,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C00DCCE260652DD00808E42 /* Modulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo.swift; sourceTree = "<group>"; };
 		4C4E55CF25F6A96900E07674 /* PrintStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStatements.swift; sourceTree = "<group>"; };
 		4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpressionsAndConcatenation.swift; sourceTree = "<group>"; };
-		4C4E55D525F6A98F00E07674 /* Printf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printf.swift; sourceTree = "<group>"; };
+		4C4E55D525F6A98F00E07674 /* Concatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concatenation.swift; sourceTree = "<group>"; };
 		4C898DC3254DEB480036AF6E /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
 		4C8C3DF2254201760066E082 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4C8C3DF725420B290066E082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -218,7 +220,8 @@
 			children = (
 				4C4E55CF25F6A96900E07674 /* PrintStatements.swift */,
 				4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */,
-				4C4E55D525F6A98F00E07674 /* Printf.swift */,
+				4C4E55D525F6A98F00E07674 /* Concatenation.swift */,
+				4C00DCCE260652DD00808E42 /* Modulo.swift */,
 			);
 			path = Printing;
 			sourceTree = "<group>";
@@ -351,10 +354,11 @@
 				4CF51B3B25D2417800D69709 /* Strings.swift in Sources */,
 				4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */,
 				4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */,
+				4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */,
 				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
 				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
 				4CF51B5425D24DF600D69709 /* DoWhile.swift in Sources */,
-				4C4E55D625F6A98F00E07674 /* Printf.swift in Sources */,
+				4C4E55D625F6A98F00E07674 /* Concatenation.swift in Sources */,
 				4CDC10382540AD2F009110DF /* SearchViewModel.swift in Sources */,
 				4CF51B3E25D2418700D69709 /* InitializingVariables.swift in Sources */,
 				4C91F31D253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld in Sources */,
