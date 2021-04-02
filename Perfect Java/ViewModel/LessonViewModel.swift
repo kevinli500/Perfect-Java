@@ -22,7 +22,7 @@ class LessonViewModel: ObservableObject {
         switch self.lessonChoice {
         case .Variables:
             categories = [
-                Category(name: "Primitive Data Types", imageName: "doc.circle.fill", lessonChoice: .Variables),
+                Category(name: "Primitive Data Types", imageName: "doc.circle", lessonChoice: .Variables),
                 Category(name: "Introduction to Strings", imageName: "doc.circle", lessonChoice: .Variables),
                 Category(name: "Declaring and Initializing Variables", imageName: "doc.circle", lessonChoice: .Variables)
             ]
@@ -36,7 +36,14 @@ class LessonViewModel: ObservableObject {
             ]
             break
         case .ControlStatements:
-            categories = []
+            categories = [
+                Category(name: "If Statements", imageName: "doc.circle", lessonChoice: .ControlStatements),
+                Category(name: "If/Else If", imageName: "doc.circle", lessonChoice: .ControlStatements),
+                Category(name: "While Loops", imageName: "doc.circle", lessonChoice: .ControlStatements),
+                Category(name: "Do While Loops", imageName: "doc.circle", lessonChoice: .ControlStatements),
+                Category(name: "For Loops", imageName: "doc.circle", lessonChoice: .ControlStatements),
+                Category(name: "Scopes", imageName: "doc.circle", lessonChoice: .ControlStatements),
+            ]
             break
         case .Methods:
             categories = []

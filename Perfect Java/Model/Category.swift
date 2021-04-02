@@ -32,7 +32,19 @@ struct Category: View, Identifiable {
                 return AnyView(EmptyView())
         
             case .ControlStatements:
-                
+                if(name == "If Statements") {
+                    return AnyView(If())
+                } else if(name == "If/Else If") {
+                    return AnyView(IfElse())
+                } else if(name == "While Loops") {
+                    return AnyView(While())
+                } else if(name == "Do While Loops") {
+                    return AnyView(DoWhile())
+                } else if(name == "For Loops") {
+                    return AnyView(ForLoops())
+                } else if(name == "Scopes") {
+                    return AnyView(Scopes())
+                }
                 return AnyView(EmptyView())
         
             case .Methods:

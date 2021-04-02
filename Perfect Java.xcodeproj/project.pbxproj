@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,7 +26,6 @@
 		4C91F325253D6DBC00E29E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C91F323253D6DBC00E29E48 /* LaunchScreen.storyboard */; };
 		4C91F331253D6E0800E29E48 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F330253D6E0800E29E48 /* HomeView.swift */; };
 		4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F334253D6E1C00E29E48 /* SearchView.swift */; };
-		4CAE86742554F66300EB1762 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 4CAE86732554F66300EB1762 /* Pages */; };
 		4CAE867E2555329100EB1762 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE867D2555329100EB1762 /* Primitive.swift */; };
 		4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77C253FBD2400E34BB3 /* Lesson.swift */; };
 		4CC9A780253FBD2E00E34BB3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9A77F253FBD2E00E34BB3 /* Category.swift */; };
@@ -92,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CAE86742554F66300EB1762 /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +270,6 @@
 			);
 			name = "Perfect Java";
 			packageProductDependencies = (
-				4CAE86732554F66300EB1762 /* Pages */,
 			);
 			productName = "Perfect Java";
 			productReference = 4C91F312253D6DBC00E29E48 /* Perfect Java.app */;
@@ -302,7 +299,6 @@
 			);
 			mainGroup = 4C91F309253D6DBC00E29E48;
 			packageReferences = (
-				4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */,
 			);
 			productRefGroup = 4C91F313253D6DBC00E29E48 /* Products */;
 			projectDirPath = "";
@@ -512,6 +508,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -534,6 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -563,25 +561,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nachonavarro/Pages";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.5;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4CAE86732554F66300EB1762 /* Pages */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4CAE86722554F66300EB1762 /* XCRemoteSwiftPackageReference "Pages" */;
-			productName = Pages;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4C91F31B253D6DBC00E29E48 /* Perfect_Java.xcdatamodeld */ = {
