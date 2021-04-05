@@ -13,7 +13,19 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-            Text("Welcome to Perfect Java!")
+            VStack {
+                
+                Text("Welcome to Perfect Java!")
+                    .font(.title)
+                    .padding(.bottom, 50)
+                
+                
+                NavigationLink(destination: DiagnosticView()) {
+                    Card(titleText: "Take Diagnostics Test", subtitleText: "Find out how you learn best")
+                }
+                
+                Spacer()
+            }
         }.navigationBarTitle("Perfect Java")
             
     }

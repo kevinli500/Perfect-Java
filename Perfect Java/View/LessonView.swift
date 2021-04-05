@@ -21,17 +21,32 @@ struct LessonView: View {
     }
     
     var body: some View {
-        ScrollView {
-
-            ForEach (viewModel.categories) { category in
-                NavigationLink (destination: category) {
-                    CategoryRow(category: category)
+        if #available(iOS 14.0, *) {
+            ScrollView {
+                
+                ForEach (viewModel.categories) { category in
+                    NavigationLink (destination: category) {
+                        CategoryRow(category: category)
+                    }
                 }
+                
             }
-            
+            .padding(.top, 6)
+            .navigationBarTitle(lessonChoice.rawValue, displayMode: .inline)
+        } else {
+            // Fallback on earlier versions
+            ScrollView {
+                
+                ForEach (viewModel.categories) { category in
+                    NavigationLink (destination: category) {
+                        CategoryRow(category: category)
+                    }
+                }
+                
+            }
+            .padding(.top, 6)
+            .navigationBarTitle(lessonChoice.rawValue)
         }
-        .padding(.top, 6)
-        .navigationBarTitle(lessonChoice.rawValue, displayMode: .inline)
     }
 }
 

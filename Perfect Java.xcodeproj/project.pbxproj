@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C00DCCE260652DD00808E42 /* Modulo.swift */; };
+		4C174D9A2616DDBD005FABEE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D992616DDBD005FABEE /* Card.swift */; };
+		4C174D9D2616E693005FABEE /* DiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D9C2616E693005FABEE /* DiagnosticView.swift */; };
+		4C174DA02617DFB9005FABEE /* DiagnosticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D9F2617DFB9005FABEE /* DiagnosticViewModel.swift */; };
 		4C4E55D025F6A96900E07674 /* PrintStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55CF25F6A96900E07674 /* PrintStatements.swift */; };
 		4C4E55D325F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */; };
 		4C4E55D625F6A98F00E07674 /* Concatenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E55D525F6A98F00E07674 /* Concatenation.swift */; };
@@ -47,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		4C00DCCE260652DD00808E42 /* Modulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo.swift; sourceTree = "<group>"; };
+		4C174D992616DDBD005FABEE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4C174D9C2616E693005FABEE /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
+		4C174D9F2617DFB9005FABEE /* DiagnosticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticViewModel.swift; sourceTree = "<group>"; };
 		4C4E55CF25F6A96900E07674 /* PrintStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStatements.swift; sourceTree = "<group>"; };
 		4C4E55D225F6A98300E07674 /* ArithmeticExpressionsAndConcatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpressionsAndConcatenation.swift; sourceTree = "<group>"; };
 		4C4E55D525F6A98F00E07674 /* Concatenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concatenation.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 			children = (
 				4C898DC3254DEB480036AF6E /* InfoButton.swift */,
 				4CF51B4025D2444700D69709 /* CodeSnippet.swift */,
+				4C174D992616DDBD005FABEE /* Card.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 				4C91F334253D6E1C00E29E48 /* SearchView.swift */,
 				4C8C3DF2254201760066E082 /* WelcomeView.swift */,
 				4C8C3E02254213B60066E082 /* LessonView.swift */,
+				4C174D9C2616E693005FABEE /* DiagnosticView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 				4CDC10372540AD2F009110DF /* SearchViewModel.swift */,
 				4C8C3DFF25420F670066E082 /* HomeViewModel.swift */,
 				4C8C3E05254213C40066E082 /* LessonViewModel.swift */,
+				4C174D9F2617DFB9005FABEE /* DiagnosticViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -336,9 +345,11 @@
 				4C8C3DF825420B290066E082 /* Constants.swift in Sources */,
 				4C91F318253D6DBC00E29E48 /* SceneDelegate.swift in Sources */,
 				4C898DC4254DEB480036AF6E /* InfoButton.swift in Sources */,
+				4C174DA02617DFB9005FABEE /* DiagnosticViewModel.swift in Sources */,
 				4CF51B4E25D24DE900D69709 /* IfElse.swift in Sources */,
 				4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */,
 				4CF51B5D25D2508900D69709 /* CategoryDestination.swift in Sources */,
+				4C174D9D2616E693005FABEE /* DiagnosticView.swift in Sources */,
 				4CF51B4125D2444700D69709 /* CodeSnippet.swift in Sources */,
 				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
 				4CF51B5A25D24E0800D69709 /* Scopes.swift in Sources */,
@@ -350,6 +361,7 @@
 				4CF51B3B25D2417800D69709 /* Strings.swift in Sources */,
 				4C91F335253D6E1C00E29E48 /* SearchView.swift in Sources */,
 				4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */,
+				4C174D9A2616DDBD005FABEE /* Card.swift in Sources */,
 				4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */,
 				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
 				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
@@ -503,12 +515,12 @@
 				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -526,12 +538,12 @@
 				DEVELOPMENT_TEAM = YVLLUWNZ5K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Perfect Java/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
