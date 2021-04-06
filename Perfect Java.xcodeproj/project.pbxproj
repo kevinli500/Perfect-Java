@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C00DCCE260652DD00808E42 /* Modulo.swift */; };
+		4C164B3B261BF45700EE2F74 /* MethodsContinued.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C164B3A261BF45700EE2F74 /* MethodsContinued.swift */; };
+		4C164B3E261BF46000EE2F74 /* OneDArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C164B3D261BF46000EE2F74 /* OneDArrays.swift */; };
+		4C164B41261BF46900EE2F74 /* TwoDArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C164B40261BF46900EE2F74 /* TwoDArrays.swift */; };
 		4C174D9A2616DDBD005FABEE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D992616DDBD005FABEE /* Card.swift */; };
 		4C174D9D2616E693005FABEE /* DiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D9C2616E693005FABEE /* DiagnosticView.swift */; };
 		4C174DA02617DFB9005FABEE /* DiagnosticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C174D9F2617DFB9005FABEE /* DiagnosticViewModel.swift */; };
@@ -50,6 +53,9 @@
 
 /* Begin PBXFileReference section */
 		4C00DCCE260652DD00808E42 /* Modulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo.swift; sourceTree = "<group>"; };
+		4C164B3A261BF45700EE2F74 /* MethodsContinued.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodsContinued.swift; sourceTree = "<group>"; };
+		4C164B3D261BF46000EE2F74 /* OneDArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OneDArrays.swift; path = "Perfect Java/Lessons/Methods/OneDArrays.swift"; sourceTree = SOURCE_ROOT; };
+		4C164B40261BF46900EE2F74 /* TwoDArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwoDArrays.swift; path = "Perfect Java/Lessons/Methods/TwoDArrays.swift"; sourceTree = SOURCE_ROOT; };
 		4C174D992616DDBD005FABEE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4C174D9C2616E693005FABEE /* DiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticView.swift; sourceTree = "<group>"; };
 		4C174D9F2617DFB9005FABEE /* DiagnosticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticViewModel.swift; sourceTree = "<group>"; };
@@ -251,6 +257,7 @@
 			children = (
 				4CF51B4325D24DB800D69709 /* Methods.swift */,
 				4CF51B4625D24DC300D69709 /* PassByValue.swift */,
+				4C164B3A261BF45700EE2F74 /* MethodsContinued.swift */,
 			);
 			path = Methods;
 			sourceTree = "<group>";
@@ -258,6 +265,8 @@
 		4CAE867C255515FB00EB1762 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				4C164B3D261BF46000EE2F74 /* OneDArrays.swift */,
+				4C164B40261BF46900EE2F74 /* TwoDArrays.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -350,6 +359,7 @@
 				4C91F31A253D6DBC00E29E48 /* ContentView.swift in Sources */,
 				4CF51B5D25D2508900D69709 /* CategoryDestination.swift in Sources */,
 				4C174D9D2616E693005FABEE /* DiagnosticView.swift in Sources */,
+				4C164B3E261BF46000EE2F74 /* OneDArrays.swift in Sources */,
 				4CF51B4125D2444700D69709 /* CodeSnippet.swift in Sources */,
 				4C8C3E06254213C40066E082 /* LessonViewModel.swift in Sources */,
 				4CF51B5A25D24E0800D69709 /* Scopes.swift in Sources */,
@@ -363,7 +373,9 @@
 				4C8C3DF3254201760066E082 /* WelcomeView.swift in Sources */,
 				4C174D9A2616DDBD005FABEE /* Card.swift in Sources */,
 				4C00DCCF260652DD00808E42 /* Modulo.swift in Sources */,
+				4C164B3B261BF45700EE2F74 /* MethodsContinued.swift in Sources */,
 				4C8C3E0025420F670066E082 /* HomeViewModel.swift in Sources */,
+				4C164B41261BF46900EE2F74 /* TwoDArrays.swift in Sources */,
 				4CC9A77D253FBD2400E34BB3 /* Lesson.swift in Sources */,
 				4CF51B5425D24DF600D69709 /* DoWhile.swift in Sources */,
 				4C4E55D625F6A98F00E07674 /* Concatenation.swift in Sources */,
@@ -440,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -495,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -520,7 +532,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.8;
+				MARKETING_VERSION = 0.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -543,7 +555,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.8;
+				MARKETING_VERSION = 0.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Perfect-Java";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

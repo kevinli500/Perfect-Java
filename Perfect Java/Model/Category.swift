@@ -28,8 +28,11 @@ struct Category: View, Identifiable {
                 }
             
             case .Arrays:
-                
-                return AnyView(EmptyView())
+                if(name == "1-Dimensional Arrays") {
+                    return AnyView(OneDArrays())
+                } else if(name == "2-Dimensional Arrays") {
+                    return AnyView(TwoDArrays())
+                }
         
             case .ControlStatements:
                 if(name == "If Statements") {
@@ -45,11 +48,15 @@ struct Category: View, Identifiable {
                 } else if(name == "Scopes") {
                     return AnyView(Scopes())
                 }
-                return AnyView(EmptyView())
         
             case .Methods:
-                
-                return AnyView(EmptyView())
+                if(name == "Introduction to Methods") {
+                    return AnyView(Methods())
+                } else if(name == "Methods Continued") {
+                    return AnyView(MethodsContinued())
+                } else if(name == "Pass By Value") {
+                    return AnyView(PassByValue())
+                }
         
             case .Printing:
                 

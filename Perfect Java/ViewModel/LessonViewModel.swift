@@ -46,10 +46,17 @@ class LessonViewModel: ObservableObject {
             ]
             break
         case .Methods:
-            categories = []
+            categories = [
+                Category(name: "Introduction to Methods", imageName: "doc.circle", lessonChoice: .Methods),
+                Category(name: "Methods Continued", imageName: "doc.circle", lessonChoice: .Methods),
+                Category(name: "Pass By Value", imageName: "doc.circle", lessonChoice: .Methods)
+            ]
             break
         case .Arrays:
-            categories = []
+            categories = [
+                Category(name: "1-Dimensional Arrays", imageName: "doc.circle", lessonChoice: .Arrays),
+                Category(name: "2-Dimensional Arrays", imageName: "doc.circle", lessonChoice: .Arrays),
+            ]
             break
         }
             

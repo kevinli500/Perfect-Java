@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PassByValue: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("This lesson is not complete yet, check back later")
     }
 }
 
